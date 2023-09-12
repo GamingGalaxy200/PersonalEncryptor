@@ -4,9 +4,10 @@
   "description": "Ein Script das Textdatein für Benutzer verschlüsseln soll. Kein Dienst soll diese Datein dann ohne den vom Nutzer festgelegten Schlüssel entschlüsseln können.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
-  "author": "",
+  "author": "MrGalaxy",
   "license": "ISC",
   "dependencies": {
     "crypto": "^1.0.1",

@@ -17,8 +17,8 @@
 5. Führe "npm run start" aus, dies startet den Code.
 
 ## Beachten:
-> [!WARNUNG]
-> Bewahre Verschlüsselungsschlüssel gut auf! Andernfalls können verschlüsselte Datein nicht abgerufen werden.
+[!WARNUNG]
+    Bewahre Verschlüsselungsschlüssel gut auf! Andernfalls können verschlüsselte Datein nicht abgerufen werden.
 - Code klappt nicht wie gewünscht? Wende dich mit einer Kopie des Errors (Wenn vorhanden) an den Developer.
     *    ➥ Er ist unter "Mr. Galaxy | Chris#0726" auf Discord zu finden. (ID: 454717869620461592)
     *    ➥ Findest du den Nutzer nicht? Ich bin auf diesem [Discord Server](https://discord.gg/EmScKUnaPe) zu finden.   
