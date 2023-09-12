@@ -1,0 +1,16 @@
+{
+  "name": "pec",
+  "version": "1.0.0",
+  "description": "Ein Script das Textdatein für Benutzer verschlüsseln soll. Kein Dienst soll diese Datein dann ohne den vom Nutzer festgelegten Schlüssel entschlüsseln können.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}
