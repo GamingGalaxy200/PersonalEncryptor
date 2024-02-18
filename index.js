@@ -20,7 +20,7 @@ function verschlüsselnDatei(ursprünglicheDatei, verschlüsselteDatei, verschl�
 function entschlüsselnDatei(verschlüsselteDatei, entschlüsselteDatei, entschlüsselungsschlüssel) {
   const input = fs.createReadStream(verschlüsselteDatei);
   const output = fs.createWriteStream(`./output/${entschlüsselteDatei}`);
-  const decipher = crypto.createDecipher('aes-256-cbc', entschlüsselungsschlüssel);
+  const decipher = crypto.createDecipheriv('aes-256-cbc', entschlüsselungsschlüssel);
 
   input.pipe(decipher).pipe(output);
 }
